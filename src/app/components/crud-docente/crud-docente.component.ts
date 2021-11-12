@@ -54,9 +54,10 @@ export class CrudDocenteComponent implements OnInit {
      );
    }
 
-
-
   ngOnInit(): void {
   }
+
+
+
 
 }
