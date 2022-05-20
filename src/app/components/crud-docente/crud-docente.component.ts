@@ -35,8 +35,7 @@ export class CrudDocenteComponent implements OnInit {
     }
   };
 
-  constructor(private docenteService:DocenteService, 
-              private ubigeoService:UbigeoService) {
+  constructor(private docenteService:DocenteService, private ubigeoService:UbigeoService) {
       this.ubigeoService.listarDepartamento().subscribe(
           response => this.departamentos = response
       );            
